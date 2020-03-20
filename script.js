@@ -7,7 +7,7 @@ window.alert("Xesque")
 
 console.log("Dale dele dele Doly")*/
 
-
+/* Tipos de variaveis e condicionais
 var nome ="Lucas"
 var sobrenome = "Henrique"
 var idade = 90;
@@ -28,4 +28,12 @@ if (hora < 12)
 } else
 {
     console.log("Nao e de manha")
-}
+}*/
+
+
+
+var titulo = document.getElementById("titulo");
+titulo.innerHTML = "Segundo titulo";
+
+var campo = document.getElementById("campo");
+campo.value = "Xesque";
