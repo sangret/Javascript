@@ -16,4 +16,17 @@ Aprendendo os tipos de dados e como verifica-los no console.
 Aprendendo sobre comentarios.
 
 19/03/2020
-Aprendendo o getElementById
+Aprendendo o getElementById.
+
+20/03/2020
+Aprendendo funcoes.
+Comecando eventos.
+Eventos de clique e mouse.
+
+21/03/2020
+Aprendendo eventos de teclado.
+
+22/03/2020
+Mudando estilos com javascript.
+Aprendendo arrays.
+Aprendendo objetos.
