@@ -126,3 +126,84 @@ console.log(carro["nome"]);
 console.log(carro.fabricante);
 carro.ligar();
 carro.acelerar();*/
+
+
+/* Switch
+let dia = 7;
+let diaNome = "";
+
+switch(dia)
+{
+    case 1:
+        diaNome = "Segunda-Feira"
+        break;
+
+    case 2:
+        diaNome = "Terca-Feira"
+        break;
+    
+    case 3:
+        diaNome = "Quarta-Feira"
+        break;
+    
+    case 4:
+        diaNome = "Quinta-Feira"
+        break;
+
+    case 5:
+        diaNome = "Sexta-Feira"
+        break;
+
+    case 6:
+        diaNome = "Sabado"
+        break;
+    
+    case 7:
+        diaNome = "Domingo"
+        break;
+
+    default:
+        diaNome = "Dia inexistente"
+        break;
+}
+
+document.getElementById("dia").innerHTML= "Hoje e "+diaNome;*/
+
+
+/* Loop For e For Array
+let texto = "";
+
+
+for(let i = 1; i <=50 ; i++)
+{
+    texto = texto + i +" "
+}
+
+document.getElementById("texto").innerHTML = texto
+
+let carros = ["corolla","uno","ferrari","fusca"];
+
+let html = "<ul>";
+
+for(let i in carros)
+{
+    html += "<li>"+ carros[i] +"</li>"
+}
+
+html += "</ul>";
+
+document.getElementById("demo").innerHTML = html*/
+
+
+/* While
+let html = ""; 
+let c = 0;
+
+while( c < 10 )
+{
+    html += "Numero: "+c+" ";
+    c++;
+}
+
+document.getElementById("while").innerHTML = html*/
+

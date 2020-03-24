@@ -30,3 +30,9 @@ Aprendendo eventos de teclado.
 Mudando estilos com javascript.
 Aprendendo arrays.
 Aprendendo objetos.
+
+23/03/2020
+Aprendendo Switch.
+Aprendendo Loop For.
+Aprendendo While.
+Vendo query Selector.
