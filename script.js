@@ -207,3 +207,23 @@ while( c < 10 )
 
 document.getElementById("while").innerHTML = html*/
 
+
+let nome = "Lucas Henrique Martins de Oliveira"
+let resultado = nome.length //pega a quantidade de caracteres da string.
+let resultado1 = nome.indexOf("Henrique") //pega a partir da posicao que achou, se for logo a primeira a posicao e 0 se nao existir a posicao e -1.
+let resultado2 = nome.substr(0, -5)//voce coloca de parametro a posicao inicial e quantidade de caracteres que ira selecionar. se quiser pegar a partir de uma voce so coloca a inicial. quando o numero e negativo ele conta a partir do final.
+
+
+
+
+
+console.log(resultado);
+console.log(resultado1);
+console.log(resultado2);
+console.log(resultado);
+console.log(resultado);
+console.log(resultado);
+console.log(resultado);
+console.log(resultado);
+console.log(resultado);
+console.log(resultado);

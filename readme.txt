@@ -36,3 +36,6 @@ Aprendendo Switch.
 Aprendendo Loop For.
 Aprendendo While.
 Vendo query Selector.
+
+24/03/2020
+Aprendendo Metodos de String.
