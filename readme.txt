@@ -39,3 +39,9 @@ Vendo query Selector.
 
 24/03/2020
 Aprendendo Metodos de String.
+
+27/03/2020
+Finalizando Metodos de String.
+Aprendendo Metodos de Number.
+Comecando Metodos de Arrays.
+Metade dos Metodos de Arrays finalizado. 
