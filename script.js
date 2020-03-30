@@ -359,3 +359,22 @@ console.log(novoValor8);
 console.log(novoValor9);
 console.log(novoValor10);
 console.log(novoValor11);*/
+
+
+let novoValor = Math.PI; //calculo de PI
+let novoValor2 = Math.round; //arredonda o numero do mesmo jeito que o SGA
+let novoValor3 = Math.floor; //arredonda sempre para baixo
+let novoValor4 = Math.ceil; //arredonda sempre para cima
+let novoValor5 = Math.abs(-15465.203); //retorna o numero positivo dele
+let novoValor6 = Math.min(1, 3, 5, 100); //retorna o menor numero.
+let novoValor7 = Math.max(45, 98, 2, 100); //retorna o maior numero.
+let novoValor8 = Math.random(); //retorna um numero aleatorio entre 0 e 1
+
+console.log(novoValor);
+console.log(novoValor2);
+console.log(novoValor3);
+console.log(novoValor4);
+console.log(novoValor5);
+console.log(novoValor6);
+console.log(novoValor7);
+console.log(novoValor8);

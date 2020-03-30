@@ -49,3 +49,7 @@ Metade dos Metodos de Arrays finalizado.
 28/03/2020
 Continuando os Metodos de Arrays.
 Finalizando Metodos de Arrays.
+
+29/03/2020
+Aprendendo sobre datas.
+Math.
