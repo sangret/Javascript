@@ -250,7 +250,7 @@ console.log(res1)
 console.log(res2)
 console.log(res3)*/
 
-
+/* Metodos de manipulacao de arrays
 let lista = ["Ovo","Farinha","Corante","Massa"];
 let lista1 = ["Ovo","Farinha","Corante","Massa"];
 let lista2 = ["Ovo","Farinha","Corante","Massa"];
@@ -258,6 +258,11 @@ let lista3 = ["Ovo","Farinha","Corante","Massa"];
 let lista4 = ["Ovo","Farinha","Corante","Massa"];
 let lista5 = ["Ovo","Farinha","Corante","Massa"];
 let lista6 = ["Ovo","Farinha","Corante","Massa"];
+let lista7 = [45, 4, 9, 16, 25];
+let lista8 = [];
+let lista9 = [];
+let lista10 = [];
+let lista11 = [];
 
 lista1.pop(); //remove o ultimo item do array.
 lista2.shift(); //remove o primeiro item do array.
@@ -266,7 +271,28 @@ lista4[0] = "ovos"; //troca o item da posicao que voce selecionou, e caso voce c
 lista5.splice(1, 1); //remove itens do array onde os parametros sao, em primeiro lugar o item que voce quer selecionar e em segundo quantos itens contando com ele.
 lista6.sort(); //ordena em ordem alfabetica A-Z
 lista6.reverse; //ordena em ordem alfabetica Z-A, se nao usar o sort ele inverte a ordem atual.
-
+lista8 = lista7.map(function(item) //pega cada item de um array existente, transpoe para um vazio e faz algo
+{
+    return item * 2; //no caso desse exemplo ele retorna o valor de cada item multiplicado por dois
+});
+lista9 = lista7.filter(function(item) //filtra um array com base na condicao, se for true ele pega os itens, se for false nao pega.
+{
+    if (item < 20)
+    {
+        return true;
+    } else
+    {
+        return false;
+    }
+});
+lista10 = lista7.every(function(item) //Retorna true ou false se todos os itens do array correspondem a condicao. Para fazer o inverso e ver se pelo menos um item corresponde basta trocar o every por some.
+{
+    return (item>3)? true : false //o questionamento de true ou false nao precisa ser feito com if e else, tambem existe essa forma.
+});
+lista11 = lista7.find(function(item) //o find retorna o primeiro item que satisfaz as condicoes, os parametros podem ser item, index e array. Se voce colocar findIndex ele acha a posicao do item no array.
+{
+ return (item == 16)? true : false;
+})
 
 let res = lista.toString(); //transforma o array em uma string unica
 let res2 = lista.join("-"); //faz o inverso do split, ele pega a mesma coisa que um toString mas voce pode definir o separador no parametro
@@ -278,10 +304,11 @@ let res7 = lista4;
 let res8 = lista5;
 let res9 = lista.concat(lista2, lista3, lista4); //junta dois ou mais arrays
 let res10 = lista6;
-let res11 = lista.toString();
-let res12 = lista.toString();
-let res13 = lista.toString();
-let res14 = lista.toString();
+let res11 = lista8;
+let res12 = lista9;
+let res13 = lista10;
+let res14 = lista11;
+ 
 
 console.log(res);
 console.log(res1);
@@ -292,4 +319,43 @@ console.log(res5);
 console.log(res6);
 console.log(res7);
 console.log(res8);
-console.log(res9);
+console.log(res9);*/
+
+
+/* Datas
+let d = new Date(); //vai pegar a data de quando foi criado.
+console.log(d);
+console.log(d.toDateString());
+console.log(d.toUTCString());
+
+let d1 = new Date();
+let d2 = new Date();
+
+
+d1.setFullYear(2022); //troca o ano conforme parametros. pode ser usado como mes e dia.
+d2.setDate(d.getDate()+5); //soma ao dia a quantidade que voce colocou, o mesmo se aplica a horas minutos e segundos
+
+let novoValor = d.getFullYear; //retorna o Ano
+let novoValor1 = d.getMonth; //retorna o mes -1
+let novoValor2 = d.getDay; //retorna o dia da semana comecando do domingo como 0
+let novoValor3 = d.getDate //pega o dia atual do mes
+let novoValor4 = d.getHours //pega as horas
+let novoValor5 = d.getMinutes //pega os minutos
+let novoValor6 = d.getSeconds //pega os segundos
+let novoValor7 = d.getMilliseconds //pega os milissegundos
+let novoValor8 = d.getTime //pega o timestamp(quantidade de milissegundos desde 01/01/1970)
+let novoValor9 = Date.now(); //pega o timestamp atual de agora
+let novoValor10 = d1;
+let novoValor11 = d2;
+
+console.log(novoValor);
+console.log(novoValor2);
+console.log(novoValor3);
+console.log(novoValor4);
+console.log(novoValor5);
+console.log(novoValor6);
+console.log(novoValor7);
+console.log(novoValor8);
+console.log(novoValor9);
+console.log(novoValor10);
+console.log(novoValor11);*/

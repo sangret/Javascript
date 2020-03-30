@@ -44,4 +44,8 @@ Aprendendo Metodos de String.
 Finalizando Metodos de String.
 Aprendendo Metodos de Number.
 Comecando Metodos de Arrays.
-Metade dos Metodos de Arrays finalizado. 
+Metade dos Metodos de Arrays finalizado.
+
+28/03/2020
+Continuando os Metodos de Arrays.
+Finalizando Metodos de Arrays.
