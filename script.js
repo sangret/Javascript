@@ -415,5 +415,8 @@ function rodar()
 let nome = "Lucas";
 let idade = 22;
 
-let frase = "Meu nome e "+nome+" e eu tenho "+idade+" anos";
-let frase2= `Meu nome e ${nome} e eu tenho ${idade} anos`
+let frase = "Meu nome e "+nome+" e eu tenho "+idade+" anos e ano que vem eu farei "(idade);
+let frase2= `Meu nome e ${nome} e eu tenho ${idade} anos e ano que vem farei ${idade+1}`
+
+console.log(frase)
+console.log(frase2)
