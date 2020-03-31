@@ -360,7 +360,7 @@ console.log(novoValor9);
 console.log(novoValor10);
 console.log(novoValor11);*/
 
-
+/* Classe Math
 let novoValor = Math.PI; //calculo de PI
 let novoValor2 = Math.round; //arredonda o numero do mesmo jeito que o SGA
 let novoValor3 = Math.floor; //arredonda sempre para baixo
@@ -377,4 +377,43 @@ console.log(novoValor4);
 console.log(novoValor5);
 console.log(novoValor6);
 console.log(novoValor7);
-console.log(novoValor8);
+console.log(novoValor8);*/
+
+
+/* Intervalos
+let timer;
+function comecar()
+{
+     timer = setInterval(showTime, 1000)
+}
+function parar()
+{
+    clearInterval(timer);
+}
+
+
+function showTime()
+{
+    let d = new Date();
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let s = d.getSeconds();
+    let txt = h+":"+m+":"+s;
+
+    document.querySelector("#demo").innerHTML = txt;
+}
+
+function rodar()
+{
+    setTimeout(function()
+    {
+        alert("Rodou!")
+    },2000)
+}*/
+
+
+let nome = "Lucas";
+let idade = 22;
+
+let frase = "Meu nome e "+nome+" e eu tenho "+idade+" anos";
+let frase2= `Meu nome e ${nome} e eu tenho ${idade} anos`
