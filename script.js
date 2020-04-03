@@ -411,7 +411,7 @@ function rodar()
     },2000)
 }*/
 
-
+/* Template Strings
 let nome = "Lucas";
 let idade = 22;
 
@@ -419,4 +419,90 @@ let frase = "Meu nome e "+nome+" e eu tenho "+idade+" anos e ano que vem eu fare
 let frase2= `Meu nome e ${nome} e eu tenho ${idade} anos e ano que vem farei ${idade+1}`
 
 console.log(frase)
-console.log(frase2)
+console.log(frase2)*/
+
+
+/*Desconstruindo Objetcts
+let pessoa = 
+{
+    nome: "Lucas",
+    sobrenome: "Henrique",
+    idade: 22,
+    social:
+    {
+        facebook: "Sangret",
+        instagram: "lucashmo"
+    },
+    nomeCompleto: function()
+    {
+        return `${this.nome} ${this.sobrenome}`
+    }
+};
+
+let {nome:pessoaNome, sobrenome, idade} = pessoa;
+let {facebook, instagram} = pessoa.social;
+
+console.log(pessoaNome, sobrenome, idade);
+console.log(facebook, instagram); */
+
+
+/*Desconstruindo Arrays
+let array = ["Lucas Henrique","Lucas", "Henrique", "@lucashmo"];
+
+let [nomeCompleto, nome, sobrenome, instagram];
+
+let [nickname, email] = ["Sangret", "lucashmo@gmail.com"];
+
+console.log(nomeCompleto, nome, sobrenome, instagram);
+console.log(nickname, email);*/
+
+
+
+/*Arrow Function
+let somar = (x, y) => x+y;
+
+console.log(somar(5, 10));*/
+
+
+/*Operador Spread
+let numeros = [1, 2, 3, 4];
+
+let outros = [...numeros, 5, 6, 7, 8]
+
+console.log (outros);
+
+let info = 
+{
+    nome: "Lucas",
+    sobrenome: "Henrique",
+    idade: 22
+};
+
+let novaInfo = 
+{
+    ...info,
+    cidade: "Belo Horizonte",
+    estado: "Minas Gerais",
+    pais: "Brasil"
+}*/
+
+
+/* Rest Operator
+function adicionar(...numeros)
+{
+    console.log (numeros);
+}
+
+adicionar(5, 6, 7, 8, 9, 10);*/
+
+
+/* Includes e Repeat
+let lista = ["ovo", "cafe", "arroz", "feijao", "macarrao"]
+
+console.log (lista.includes("ovo"));
+
+
+let nome  = "lucas"
+
+console.log("x".repeat(20));*/
+

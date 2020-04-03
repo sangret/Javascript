@@ -57,3 +57,15 @@ Math.
 30/03/2020
 Arendendo sobre intervalos.
 Template Strings.
+
+31/03/2020
+Desconstrucao de objetos
+
+02/04/2020
+Desconstrucao de objetos 2.
+Desconstrucao de arrays.
+Arrow Functions.
+Operador Spread.
+Operador Rest.
+Includes e Repeat.
+
