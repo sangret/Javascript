@@ -69,3 +69,10 @@ Operador Spread.
 Operador Rest.
 Includes e Repeat.
 
+03/04/2020
+Object: Key, Values e Entries.
+String, padStart, padEnd.
+Promise.
+Ajax/Fetch.
+Async/Await.
+Projeto.

@@ -506,3 +506,69 @@ let nome  = "lucas"
 
 console.log("x".repeat(20));*/
 
+
+/* Objects Keys, Values e Entries
+let lista = ["ovo", "macarrao", "feijao", "pipoca"]
+
+console.log(Object.keys(lista))
+console.log(Object.values(lista))
+console.log(Object.entries(lista))
+
+let pessoa = 
+{
+    nome: "Lucas",
+    sobrenome: "Henrique",
+    idade: 22
+}
+
+console.log(Object.keys(pessoa))
+console.log(Object.values(pessoa))
+console.log(Object.entries(pessoa))*/
+
+/* padStart, padEnd
+let telefone = "5";
+
+console.log(telefone.padEnd(9, "*"));
+
+let cartao = "1234";
+
+console.log(cartao.padStart(16, "*"));*/
+
+function requisitar(){
+fetch("https://alunos.b7web.com.br/api/ping")
+    .then((r)=>r.json())
+    .then((json)=>console.log(json));
+
+const url = 'https://alunos.b7web.com.br/api/ping';
+const params = {
+    method: 'POST',
+    body: JSON.stringify(
+        {
+            nome: 'Lucas',
+            idade: 22 
+        })
+};
+
+fetch(url, params)
+    .then((r)=>r.json())
+    .then((json)=>{
+        console.log(json);
+});
+}
+requisitar();
+
+async function requisitar2 ()
+{
+    const url = 'https://alunos.b7web.com.br/api/ping';
+    const params = {
+    method: 'POST',
+    body: JSON.stringify(
+        {
+            nome: 'Lucas',
+            idade: 22 
+        })
+    };
+    const r = await fetch(url, params);
+    const json = await r.json();
+    console.log(json);
+}
