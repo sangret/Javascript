@@ -76,3 +76,7 @@ Promise.
 Ajax/Fetch.
 Async/Await.
 Projeto.
+
+04/04/2020
+Parte 1 do Projeto.
+
