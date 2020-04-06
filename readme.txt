@@ -79,4 +79,18 @@ Projeto.
 
 04/04/2020
 Parte 1 do Projeto.
+Parte 2 do Projeto.
+Parte 3 do Projeto.
+Parte 4 do Projeto.
+Parte 5 do Projeto.
+Parte 6 do Projeto.
+Parte 7 do Projeto.
+Parte 8 do Projeto.
 
+05/04/2020
+Parte 9 do Projeto.
+Parte 10 do Projeto.
+Parte 11 do Projeto.
+Parte 12 do Projeto.
+Parte 13 do Projeto.
+Parte 14 do Projeto.
